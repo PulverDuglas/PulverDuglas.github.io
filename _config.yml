@@ -6,7 +6,7 @@ url: "www.cloud.moitroux.com"
 
 # Delete the lines you don't need
 # about 5 elements are recomended
-on_two_lines: "yes" # comment otherwise
+icons_on_two_lines: "no"
 github_username:  OlivierMoitroux
 linkedin_username: olivier-moitroux
 #flickr_username: 155871750@N05/
