@@ -30,7 +30,28 @@ permalink: /
             <h1>{{ site.name }}</h1>
             <h3>{{ site.description }}</h3>
 
+            <!-- See https://fontawesome.bootstrapcheatsheets.com/ for which icons to choose -->
+
                 <ul>
+
+
+                        {% if site.blog_url %}
+                        <li><a class="fa fa-2x .fa-sign-in" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
+                        <!--                    fa-tags-->
+                        {% endif %}
+
+
+                        {% if site.resume_url %}
+                        <li><a class="fa fa-2x .fa-file-pdf-o" href="{{ site.resume_url }}"><span class="description">Online Resume</span></a></li>
+                        <!--                    fa-tags-->
+                        {% endif %}
+
+
+
+
+
+
+
                     {% if site.github_username %}
                     <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
                     {% endif %}
@@ -69,7 +90,7 @@ permalink: /
 
                     {% if site.flickr_username %}
 
-                        <li><a class="fa fa-2x fa-flickr" href="https://www.flickr.com/photos/{{ site.flickr_username }}"><div class="tip"><span class="description">Flickr</span></div></a></li>
+                    <li><a class="fa fa-2x fa-flickr" href="https://www.flickr.com/photos/{{ site.flickr_username }}"><div class="tip"><span class="description">Flickr</span></div></a></li>
 
 
 <!--                    data-tooltip="Flickr"-->
@@ -106,11 +127,6 @@ permalink: /
 
                     {% if site.weibo_username %}
                     <li><a class="fa fa-2x fa-weibo" href="https://weibo.com/{{ site.weibo_username }}"><span class="description">微博</span></a></li>
-                    {% endif %}
-
-                    {% if site.blog_url %}
-                    <li><a class="fa fa-2x fa-website" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
-<!--                    fa-tags-->
                     {% endif %}
 
                     {% if site.email %}
