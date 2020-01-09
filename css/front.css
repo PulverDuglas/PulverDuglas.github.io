@@ -88,17 +88,26 @@ a {
     background: #333;
     background: rgba(0, 0, 0, .8);
     border-radius: 5px;
-    /*bottom: -34px;*/
     color: #fff;
     content: attr(data-tooltip);
-    /*left: 20%;*/
     left:50%;
     top:100%;
     padding: 5px 15px;
     position: absolute;
-    /*z-index: 98;*/
     width: 350px;
-    margin-left: -175px;
+    /*margin-left: -175px;*/
+
+    /*z-index: 98;*/
+    /*left: 20%;*/
+    /*bottom: -34px;*/
+
+    bottom: 100%;  /* At the top of the tooltip */
+    /*left: 50%;*/
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+
 }
 
 [data-tooltip]:hover:before {
