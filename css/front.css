@@ -79,12 +79,12 @@ a {
 /* My mods start here */
 
 
-data-tooltip {
+[data-tooltip] {
     display: inline;
     position: relative;
 }
 
-data-tooltip:hover:after {
+[data-tooltip]:hover:after {
     background: #333;
     background: rgba(0, 0, 0, .8);
     border-radius: 5px;
@@ -98,7 +98,7 @@ data-tooltip:hover:after {
     width: 350px;
 }
 
-data-tooltip:hover:before {
+[data-tooltip]:hover:before {
     border: solid;
     border-color: #333 transparent;
     border-width: 0 6px 6px 6px;
