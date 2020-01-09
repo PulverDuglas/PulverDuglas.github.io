@@ -110,16 +110,16 @@ a {
 
 }
 
-[data-tooltip]:hover:before {
-    border: solid;
-    border-color: #333 transparent;
-    border-width: 0 6px 6px 6px;
-    bottom: -4px;
-    content: "";
-    left: 50%;
-    position: absolute;
-    z-index: 99;
-}
+/*[data-tooltip]:hover:before {*/
+/*    border: solid;*/
+/*    border-color: #333 transparent;*/
+/*    border-width: 0 6px 6px 6px;*/
+/*    bottom: -4px;*/
+/*    content: "";*/
+/*    left: 50%;*/
+/*    position: absolute;*/
+/*    z-index: 99;*/
+/*}*/
 
 /* My mods stop here */
 
