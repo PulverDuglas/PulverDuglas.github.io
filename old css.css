@@ -1,0 +1,88 @@
+
+
+/*[data-tooltip] {*/
+/*    display: inline;*/
+/*    position: relative;*/
+/*}*/
+
+/*[data-tooltip]:hover:after {*/
+/*    background: #333;*/
+/*    background: rgba(0, 0, 0, .8);*/
+/*    border-radius: 5px;*/
+/*    color: #fff;*/
+/*    content: attr(data-tooltip);*/
+/*    left:50%;*/
+/*    top:100%;*/
+/*    padding: 5px 15px;*/
+/*    position: absolute;*/
+/*    width: 350px;*/
+/*    margin-left: -175px;*/
+
+/*    !*z-index: 98;*!*/
+/*    !*left: 20%;*!*/
+/*    !*bottom: -34px;*!*/
+
+/*    !*bottom: 100%;  !* At the top of the tooltip *!*!*/
+/*    !*!*left: 50%;*!*!*/
+/*    !*margin-left: -5px;*!*/
+/*    !*border-width: 5px;*!*/
+/*    !*border-style: solid;*!*/
+/*    !*border-color: transparent transparent black transparent;*!*/
+
+/*}*/
+
+/*[data-tooltip]:hover:before {*/
+/*    border: solid;*/
+/*    border-color: #333 transparent;*/
+/*    border-width: 0 6px 6px 6px;*/
+/*    bottom: -4px;*/
+/*    content: "";*/
+/*    left: 50%;*/
+/*    position: absolute;*/
+/*    z-index: 99;*/
+/*}*/
+
+/*[tooltip] {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    border-bottom: 1px dotted black;*/
+/*}*/
+
+/*[tooltip] .tooltiptext {*/
+/*    visibility: hidden;*/
+/*    width: 120px;*/
+/*    background-color: black;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*    border-radius: 6px;*/
+/*    padding: 5px 0;*/
+/*    position: absolute;*/
+/*    z-index: 1;*/
+/*    bottom: 150%;*/
+/*    left: 50%;*/
+/*    margin-left: -60px;*/
+/*}*/
+
+/*[tooltip] .tooltiptext::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 100%;*/
+/*    left: 50%;*/
+/*    margin-left: -5px;*/
+/*    border-width: 5px;*/
+/*    border-style: solid;*/
+/*    border-color: black transparent transparent transparent;*/
+/*}*/
+
+/*[tooltip]:hover .tooltiptext {*/
+/*    visibility: visible;*/
+/*}*/
+
+
+https://stackoverflow.com/questions/17472440/styling-html-title-attribute-using-css
+https://stackoverflow.com/questions/2011142/how-to-change-the-style-of-the-title-attribute-inside-an-anchor-tag
+                                                                                         https://www.w3schools.com/css/css_tooltip.asp
+                                                                                                                                                                                          https://stackoverflow.com/questions/2011142/how-to-change-the-style-of-the-title-attribute-inside-an-anchor-tag
+
+
+

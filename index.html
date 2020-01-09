@@ -68,8 +68,12 @@ permalink: /
                     {% endif %}
 
                     {% if site.flickr_username %}
-                    <li><a class="fa fa-2x fa-flickr" href="https://www.flickr.com/photos/{{ site.flickr_username }}"><span class="description">Flickr</span></a></li>
+                    <div class="tip">
+                        <li><a class="fa fa-2x fa-flickr" href="https://www.flickr.com/photos/{{ site.flickr_username }}"><span class="description">Flickr</span></a></li>
+                    </div>
+
 <!--                    data-tooltip="Flickr"-->
+
                     {% endif %}
 
                     {% if site.steam_username %}
