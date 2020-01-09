@@ -26,11 +26,11 @@ medium_username:  your_medium_username_goes_here
 # lastfm_username: your_lastfm_username_goes_here
 blog_url: "https://OlivierMoitroux.github.io"
 email: grandiose.legrand@gmail.com
-#public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
+# public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
 
 
 avatar: yes
-avatar_img_path: "imgs/pacmam.png""
+avatar_img_path: "imgs/pacman.png""
 # You can link to your GitHub image. That way it will get updated
 # automatically whenever you change your GitHub profile picture
 #avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
