@@ -82,17 +82,17 @@ a {
 
 
 .tip {
-    border-bottom: 1px dashed;
     text-decoration: none
 }
 .tip:hover {
     cursor: help;
-    position: relative
+    position: relative;
 }
 .tip span {
-    display: none
+    display: none;
 }
 .tip:hover span {
+    content:"hello";
     border: #c0c0c0 1px dotted;
     padding: 5px 20px 5px 5px;
     display: block;
