@@ -19,6 +19,7 @@ permalink: /
     </head>
     <body>
         <div class="content">
+
             {% if site.front_img %}
             <img src="{{ site.front_img_path }}" id="fullscreen">
             {% endif %}
@@ -34,18 +35,18 @@ permalink: /
 
                 <ul>
 
+                    <div class="sth">
+                    {% if site.blog_url %}
+                    <li><a class="fa fa-2x fa-sign-in" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
+                    <!--                    fa-tags-->
+                    {% endif %}
 
-                        {% if site.blog_url %}
-                        <li><a class="fa fa-2x fa-sign-in" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
-                        <!--                    fa-tags-->
-                        {% endif %}
 
-
-                        {% if site.resume_url %}
-                        <li><a class="fa fa-2x fa-file-pdf-o" href="{{ site.resume_url }}"><span class="description">Online Resume</span></a></li>
-                        <!--                    fa-tags-->
-                        {% endif %}
-
+                    {% if site.resume_url %}
+                    <li><a class="fa fa-2x fa-file-pdf-o" href="{{ site.resume_url }}"><span class="description">Online Resume</span></a></li>
+                    <!--                    fa-tags-->
+                    {% endif %}
+                    </div>
 
 
 
@@ -89,8 +90,9 @@ permalink: /
                     {% endif %}
 
                     {% if site.flickr_username %}
-
-                    <li><a class="fa fa-2x fa-flickr" href="https://www.flickr.com/photos/{{ site.flickr_username }}"><div class="tip"><span class="description">Flickr</span></div></a></li>
+<!--                    <div class="tip">-->
+                    <li><a class="fa fa-2x fa-flickr" href="https://www.flickr.com/photos/{{ site.flickr_username }}"><span class="description">Flickr</span></a></li>
+<!--                    </div>-->
 
 
 <!--                    data-tooltip="Flickr"-->
