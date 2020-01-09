@@ -79,47 +79,47 @@ a {
 /* My mods start here */
 
 
-/*[data-tooltip] {*/
-/*    display: inline;*/
-/*    position: relative;*/
-/*}*/
-
-[data-tooltip]:hover:after {
-    background: #333;
-    background: rgba(0, 0, 0, .8);
-    border-radius: 5px;
-    color: #fff;
-    content: attr(data-tooltip);
-    left:50%;
-    top:100%;
-    padding: 5px 15px;
-    position: absolute;
-    width: 350px;
-    margin-left: -175px;
-
-    /*z-index: 98;*/
-    /*left: 20%;*/
-    /*bottom: -34px;*/
-
-    /*bottom: 100%;  !* At the top of the tooltip *!*/
-    /*!*left: 50%;*!*/
-    /*margin-left: -5px;*/
-    /*border-width: 5px;*/
-    /*border-style: solid;*/
-    /*border-color: transparent transparent black transparent;*/
-
+[data-tooltip] {
+    display: inline;
+    position: relative;
 }
 
-/*[data-tooltip]:hover:before {*/
-/*    border: solid;*/
-/*    border-color: #333 transparent;*/
-/*    border-width: 0 6px 6px 6px;*/
-/*    bottom: -4px;*/
-/*    content: "";*/
-/*    left: 50%;*/
+/*[data-tooltip]:hover:after {*/
+/*    background: #333;*/
+/*    background: rgba(0, 0, 0, .8);*/
+/*    border-radius: 5px;*/
+/*    color: #fff;*/
+/*    content: attr(data-tooltip);*/
+/*    left:50%;*/
+/*    top:100%;*/
+/*    padding: 5px 15px;*/
 /*    position: absolute;*/
-/*    z-index: 99;*/
+/*    width: 350px;*/
+/*    margin-left: -175px;*/
+
+/*    !*z-index: 98;*!*/
+/*    !*left: 20%;*!*/
+/*    !*bottom: -34px;*!*/
+
+/*    !*bottom: 100%;  !* At the top of the tooltip *!*!*/
+/*    !*!*left: 50%;*!*!*/
+/*    !*margin-left: -5px;*!*/
+/*    !*border-width: 5px;*!*/
+/*    !*border-style: solid;*!*/
+/*    !*border-color: transparent transparent black transparent;*!*/
+
 /*}*/
+
+[data-tooltip]:hover:before {
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 0 6px 6px 6px;
+    bottom: -4px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
 
 /* My mods stop here */
 
