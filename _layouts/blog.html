@@ -5,7 +5,7 @@
 <body>
 <!--    {{ content }}-->
 {% include blog.html %}
-{% if jekyll.environment == 'production' %}
+{% if jekyll.environment == 'production' and site.google_analytics %}
 {% include analytics.html %}
 {% endif %}
 </body>

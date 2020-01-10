@@ -52,6 +52,7 @@ favicon_img_path: "imgs/favicon.ico"
 # Build settings
 markdown: kramdown
 permalink: pretty
+google_analytics: "UA-156024639-1"
 
 
 #include:
