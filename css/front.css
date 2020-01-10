@@ -38,8 +38,8 @@ h3 {
     font-weight: thin;
 }
 .content {
-    padding-top: 100px;
-    padding-bottom: 40px;
+    /*padding-top: 100px;*/
+    /*padding-bottom: 40px;*/
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -79,7 +79,8 @@ a {
 /* My mods start here */
 
 
-
+/*https://www.w3schools.com/css/css_tooltip.asp*/
+/*https://stackoverflow.com/questions/2011142/how-to-change-the-style-of-the-title-attribute-inside-an-anchor-tag*/
 
 .tip {
     text-decoration: none
