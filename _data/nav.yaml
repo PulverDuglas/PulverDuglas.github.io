@@ -1,0 +1,20 @@
+urls_list_title: Navigation
+urls:
+
+  - title: Home
+    url: index.html
+
+  - title: Blog
+    url: blog/index.html
+
+
+
+#
+#  - title: Blog
+#      subfolderitems:
+#          - page: Blog
+#            url: /blog/index.html
+#            - page: Thing 2
+#              url: /thing2.html
+#            - page: Thing 3
+#              url: /thing3.html
