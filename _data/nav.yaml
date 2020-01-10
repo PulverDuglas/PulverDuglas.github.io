@@ -5,7 +5,7 @@ urls:
     url: index.html
 
   - title: Blog
-    url: blog/index.html
+    url: blog/home.html
 
 
 
