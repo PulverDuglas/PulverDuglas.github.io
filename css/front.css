@@ -38,8 +38,8 @@ h3 {
     font-weight: thin;
 }
 .content {
-    /*padding-top: 100px;*/
-    /*padding-bottom: 40px;*/
+    padding-top: 100px;
+    padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -71,8 +71,28 @@ a {
     padding: 15px;
     text-decoration: none;
 }
+
+
+/*Add tooltip here if required*/
 .description {
     display: none;
+}
+
+
+.description:hover {
+    content:attr(description);
+    border: #c0c0c0 1px dotted;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    /*background: #f0f0f0 no-repeat 100% 5%;*/
+    background-color: black;
+    left: 0px;
+    margin: 10px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    text-decoration: none
 }
 
 
