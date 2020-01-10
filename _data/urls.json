@@ -1,0 +1,13 @@
+[
+  {
+    "text": "Home",
+    "url": "/",
+    "icon": "fa-home",
+    "layout": "post"
+  },
+  {
+    "text": "Blog",
+    "url": "/blog/",
+    "icon": "fa-sign-in"
+  }
+]
