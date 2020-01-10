@@ -1,7 +1,0 @@
- ---
- title: Olivier Moitroux
- layout: blog
- ---
-
-<h1>Hello World, this is my blog</h1>
-
