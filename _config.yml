@@ -55,5 +55,5 @@ favicon_img_path: "imgs/favicon.ico"
 markdown: kramdown
 permalink: pretty
 
-include:
-  - blog.html
+#include:
+#  - blog.html
