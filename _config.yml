@@ -1,21 +1,18 @@
 # Site settings
 name: Olivier Moitroux
 description: "Belgian engineer in computer sciences, Junior Entrepreneur at free time, ai/tech dreamer and enthusiastic diver."
-url: "www.cloud.moitroux.com"
+url: ""
 
 
-# Delete the lines you don't need
-# about 5 elements are recomended
 icons_on_two_lines: "no"
 github_username:  OlivierMoitroux
 linkedin_username: olivier-moitroux
-#flickr_username: 155871750@N05/
-#medium_username:  olivier.moitroux
 blog_url: "blog.html"
 email: olivier.moitroux@gmail.com
-
-
 resume_url: "https://www.cloud.moitroux.com/s/rrn8eGF2XjDF2yn"
+
+#flickr_username: 155871750@N05/
+#medium_username:  olivier.moitroux
 
 
 #instagram_username:  your_instagram_username_goes_here

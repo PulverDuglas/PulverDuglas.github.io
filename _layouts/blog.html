@@ -5,5 +5,8 @@
 <body>
 <!--    {{ content }}-->
 {% include blog.html %}
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
 </body>
 </html>
