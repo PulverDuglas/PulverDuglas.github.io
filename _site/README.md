@@ -9,3 +9,5 @@ JEKYLL_ENV=production jekyll build
 By default, jekyll-env is development
 
 https://michaelsoolee.com/google-analytics-jekyll/
+
+https://jekyllcodex.org/without-plugin/cookie-consent/

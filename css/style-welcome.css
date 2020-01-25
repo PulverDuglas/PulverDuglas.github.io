@@ -17,6 +17,9 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    /*New */
+    filter: brightness(50%);
+
 }
 #avatar {
     height: 180px;
@@ -37,10 +40,19 @@ h3 {
     padding-bottom: 20px;
     font-weight: thin;
 }
+
+/*h4 {*/
+/*    color: white;*/
+/*    padding-bottom: 5px;*/
+/*    font-weight: normal; !* thin *!*/
+/*    text-align: center;*/
+/*    width: 100%;*/
+/*}*/
 .content {
     padding-top: 100px;
     padding-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
+    /*buggy*/
+    /*background-color: rgba(0, 0, 0, 0.5);*/
     text-align: center;
 }
 ul {
@@ -97,8 +109,26 @@ a {
 
 
 /* My mods start here */
+/*<div id="last_update">*/
+#last_update{
+    /*color: white;*/
+    /*position: absolute; !* absolute*!*/
+    /*!*bottom: 10px;*!*/
+    /*text-align: center;*/
+    /*width: 100%;*/
+    /*!*float: left;*!*/
+    /*!*padding-bottom: 10px;*!*/
+    /*!*padding-top: 10px;*!*/
+    /*!*text-align: center;*!*/
+    /*bottom: 40px;*/
 
+    color: white;
+    padding-bottom: 10px;
+    font-weight: normal; /* thin */
+    text-align: center;
+    width: 100%;
 
+}
 /*https://www.w3schools.com/css/css_tooltip.asp*/
 /*https://stackoverflow.com/questions/2011142/how-to-change-the-style-of-the-title-attribute-inside-an-anchor-tag*/
 
@@ -128,9 +158,11 @@ a {
     text-decoration: none
 }
 
-
-
-
+/*footer{*/
+/*    !*position: fixed;*!*/
+/*    bottom: 0;*/
+/*    position: absolute;*/
+/*}*/
 
 
 /* My mods stop here */
